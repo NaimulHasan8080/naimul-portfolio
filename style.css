@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     margin-bottom: 150px;
     display: flex;
 }
@@ -43,7 +43,24 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.full-stack{
-    margin-top: 50px;
-    background-color: white;
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, hsl(0, 23%, 52%));
+    border-radius: 3px;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-radius: 3px;
+    border-image-slice: 1;
+}
+.dev-experience{
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    margin-bottom: 100px;
 }
