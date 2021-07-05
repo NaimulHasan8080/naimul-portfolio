@@ -64,3 +64,6 @@ body{
     border-radius: 5px;
     margin-bottom: 100px;
 }
+footer p{
+    text-align: center;
+}
